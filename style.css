@@ -26,11 +26,10 @@ body {
   justify-content: center;
   color: aliceblue;
   font-family: 'Charm', cursive;
-  font-size: 3.2rem;
-  
+  font-size: 3.5vw;
 }
-.context .brand .s{
-    color:rgba(255, 0, 0, 0.95);
+.context .brand .s {
+  color: rgba(255, 0, 0, 0.95);
 }
 .context .brand {
   position: relative;
@@ -43,7 +42,7 @@ body {
 .area {
   width: 100%;
   height: 100vh;
-  
+
   margin: 0;
   padding: 0;
 }
@@ -171,7 +170,7 @@ body {
 }
 
 .animated {
-    display: flex;
+  display: flex;
   font-family: 'Charm', cursive;
   font-size: 6rem;
   background: url('text-bg.png');
@@ -189,3 +188,14 @@ body {
     background-position: 100% 80%;
   }
 }
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .context,
+  .animated,
+  .circles,
+  .area,
+  .brand {
+    width: 100%;
+
+  }
+} 
