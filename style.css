@@ -165,6 +165,7 @@ body {
 }
 
 .animated {
+  display:flex;
   font-family: 'Charm', cursive;
   font-size: 6rem;
   background: url('text-bg.png');
