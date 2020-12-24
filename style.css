@@ -15,7 +15,18 @@ body {
   margin: 0px;
   padding: 0px;
 }
+ .greet {
+   position:absolute;
+color: aliceblue;
+bottom: 120%;
+left: 4rem;
+height:5rem ; 
+ font-size:1.3rem;
+ font-family: 'Courier New', Courier, monospace;
+ color: white;
+ text-shadow: 2px 2px 4px #00ff00;
 
+}
 .context h1 {
   text-align: center;
   /* color: #fff;
@@ -24,19 +35,20 @@ body {
 .context h2 {
   text-align: center;
   justify-content: center;
-  color: aliceblue;
   font-family: 'Charm', cursive;
   font-size: 7.5vw;
 }
-.context .brand .s {
-  color: rgba(255, 0, 0, 0.95);
+
+.context .brand .part {
+  color: rgba(0, 255, 0,0.5);
+  text-shadow: 1px 2px 1px #ff0000;
 }
 .context .brand {
   position: relative;
   top: 5vh;
   padding-left: 0;
   background: rgba(197, 172, 172, 0.09);
-  color: rgba(255, 255, 255, 0.55);
+  color:rgba(255, 0, 0, 0.95);
   z-index: 9999999999;
 }
 .area {
@@ -45,7 +57,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.area img {
+  padding-top: 17rem;
+}
 .circles {
   position: absolute;
   top: 0;
@@ -170,7 +184,7 @@ body {
 }
 
 .animated {
-  
+  z-index: 999999999;
   font-family: 'Charm', cursive;
   font-size: 10vw;
   background: url('text-bg.png');
